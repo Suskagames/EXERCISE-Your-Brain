@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My ApplicationV4</string>
+
+    <string name="Jeden">1</string>
+    <string name="Dwa">2</string>
+    <string name="Trzy">3</string>
+    <string name="Cztery">4</string>
+    <string name="Piec">5</string>
+    <string name="Szejsc">6</string>
+    <string name="Siedem">7</string>
+    <string name="Osiem">8</string>
+    <string name="Dziewiec">9</string>
+    <string name="Odpowiedz">Odpowiedz</string>
+    <string name="Wyczysc">Wyczysc</string>
+    <string name="odpowiedz">Odpowiedz</string>
+    <string name="wyczysc">Wyczysc</string>
+    <string name="RESET">Reset</string>
+    <string name="NowaGra">NowaGra</string>
+</resources>

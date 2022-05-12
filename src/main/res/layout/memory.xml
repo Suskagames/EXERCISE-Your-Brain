@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="resetMemory">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV21"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV22"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV23"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV24"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV31"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV32"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV33"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV34"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV41"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV42"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV43"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV44"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV51"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV52"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV53"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV54"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/iV61"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV62"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV63"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+            <ImageView
+                android:id="@+id/iV64"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/z0" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTNreset"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginEnd="131dp"
+            android:background="@drawable/odpowiedz_btn"
+            android:onClick="resetMemory"
+            android:text="@string/RESET"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

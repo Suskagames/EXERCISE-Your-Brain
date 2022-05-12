@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Sudoku">
+
+    <com.example.myapplicationv4.TablicaSudoku
+        android:id="@+id/TablicaSudoku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:boardColor="#eab676"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:cellFillColor="#99ffbd"
+        custom:cellHighlightColor="#2dfc76"
+        custom:letterColor="#000000"
+        custom:letterColorRozSud="#00ff00"
+        custom:letterColorError="#ff0000">
+
+    </com.example.myapplicationv4.TablicaSudoku>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/TablicaSudoku">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNJedenPress"
+            android:text="@string/Jeden"
+            android:textColor="#1f6eed"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNDwaPress"
+            android:text="@string/Dwa"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNTrzyPress"
+            android:text="@string/Trzy"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNCzteryPress"
+            android:text="@string/Cztery"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNPiecPress"
+            android:text="@string/Piec"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNSzejscPress"
+            android:text="@string/Szejsc"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNSiedemPress"
+            android:text="@string/Siedem"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNOsiemPress"
+            android:text="@string/Osiem"
+            android:textColor="#1f6eed"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="BTNDziewiecPress"
+            android:text="@string/Dziewiec"
+            android:textColor="#1f6eed"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="155dp"
+        android:background="@drawable/odpowiedz_btn"
+        android:onClick="Odp"
+        android:text="@string/Odpowiedz"
+        android:textSize="18sp"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
